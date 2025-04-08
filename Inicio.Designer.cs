@@ -36,18 +36,18 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.txbID = new System.Windows.Forms.TextBox();
+            this.lbID = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lbName = new System.Windows.Forms.Label();
+            this.txbFecha = new System.Windows.Forms.TextBox();
+            this.lbFecha = new System.Windows.Forms.Label();
+            this.txbActivo = new System.Windows.Forms.TextBox();
+            this.lbActivo = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lbColorI = new System.Windows.Forms.Label();
+            this.txbdato2vivo = new System.Windows.Forms.TextBox();
+            this.lbdato2vivo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dGVlatablita)).BeginInit();
             this.SuspendLayout();
             // 
@@ -121,21 +121,21 @@
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txbID
             // 
-            this.textBox1.Location = new System.Drawing.Point(499, 47);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(72, 20);
-            this.textBox1.TabIndex = 9;
+            this.txbID.Location = new System.Drawing.Point(499, 47);
+            this.txbID.Name = "txbID";
+            this.txbID.Size = new System.Drawing.Size(72, 20);
+            this.txbID.TabIndex = 9;
             // 
-            // label1
+            // lbID
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(514, 31);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(18, 13);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "ID";
+            this.lbID.AutoSize = true;
+            this.lbID.Location = new System.Drawing.Point(514, 31);
+            this.lbID.Name = "lbID";
+            this.lbID.Size = new System.Drawing.Size(18, 13);
+            this.lbID.TabIndex = 8;
+            this.lbID.Text = "ID";
             // 
             // textBox2
             // 
@@ -144,46 +144,46 @@
             this.textBox2.Size = new System.Drawing.Size(72, 20);
             this.textBox2.TabIndex = 11;
             // 
-            // label2
+            // lbName
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(514, 79);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(18, 13);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "ID";
+            this.lbName.AutoSize = true;
+            this.lbName.Location = new System.Drawing.Point(514, 79);
+            this.lbName.Name = "lbName";
+            this.lbName.Size = new System.Drawing.Size(44, 13);
+            this.lbName.TabIndex = 10;
+            this.lbName.Text = "Nombre";
             // 
-            // textBox3
+            // txbFecha
             // 
-            this.textBox3.Location = new System.Drawing.Point(499, 143);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(72, 20);
-            this.textBox3.TabIndex = 13;
+            this.txbFecha.Location = new System.Drawing.Point(499, 143);
+            this.txbFecha.Name = "txbFecha";
+            this.txbFecha.Size = new System.Drawing.Size(72, 20);
+            this.txbFecha.TabIndex = 13;
             // 
-            // label3
+            // lbFecha
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(514, 127);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(18, 13);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "ID";
+            this.lbFecha.AutoSize = true;
+            this.lbFecha.Location = new System.Drawing.Point(496, 127);
+            this.lbFecha.Name = "lbFecha";
+            this.lbFecha.Size = new System.Drawing.Size(89, 13);
+            this.lbFecha.TabIndex = 12;
+            this.lbFecha.Text = "Fecha de registro";
             // 
-            // textBox4
+            // txbActivo
             // 
-            this.textBox4.Location = new System.Drawing.Point(499, 194);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(72, 20);
-            this.textBox4.TabIndex = 15;
+            this.txbActivo.Location = new System.Drawing.Point(499, 194);
+            this.txbActivo.Name = "txbActivo";
+            this.txbActivo.Size = new System.Drawing.Size(72, 20);
+            this.txbActivo.TabIndex = 15;
             // 
-            // label4
+            // lbActivo
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(514, 178);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(18, 13);
-            this.label4.TabIndex = 14;
-            this.label4.Text = "ID";
+            this.lbActivo.AutoSize = true;
+            this.lbActivo.Location = new System.Drawing.Point(514, 178);
+            this.lbActivo.Name = "lbActivo";
+            this.lbActivo.Size = new System.Drawing.Size(37, 13);
+            this.lbActivo.TabIndex = 14;
+            this.lbActivo.Text = "Activo";
             // 
             // textBox5
             // 
@@ -192,48 +192,48 @@
             this.textBox5.Size = new System.Drawing.Size(72, 20);
             this.textBox5.TabIndex = 17;
             // 
-            // label5
+            // lbColorI
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(514, 233);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(18, 13);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "ID";
+            this.lbColorI.AutoSize = true;
+            this.lbColorI.Location = new System.Drawing.Point(502, 233);
+            this.lbColorI.Name = "lbColorI";
+            this.lbColorI.Size = new System.Drawing.Size(69, 13);
+            this.lbColorI.TabIndex = 16;
+            this.lbColorI.Text = "Color Interfaz";
             // 
-            // textBox6
+            // txbdato2vivo
             // 
-            this.textBox6.Location = new System.Drawing.Point(499, 300);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(72, 20);
-            this.textBox6.TabIndex = 19;
+            this.txbdato2vivo.Location = new System.Drawing.Point(499, 300);
+            this.txbdato2vivo.Name = "txbdato2vivo";
+            this.txbdato2vivo.Size = new System.Drawing.Size(72, 20);
+            this.txbdato2vivo.TabIndex = 19;
             // 
-            // label6
+            // lbdato2vivo
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(514, 284);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(18, 13);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "ID";
+            this.lbdato2vivo.AutoSize = true;
+            this.lbdato2vivo.Location = new System.Drawing.Point(499, 284);
+            this.lbdato2vivo.Name = "lbdato2vivo";
+            this.lbdato2vivo.Size = new System.Drawing.Size(72, 13);
+            this.lbdato2vivo.TabIndex = 18;
+            this.lbdato2vivo.Text = "Vivo o muerto";
             // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txbdato2vivo);
+            this.Controls.Add(this.lbdato2vivo);
             this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lbColorI);
+            this.Controls.Add(this.txbActivo);
+            this.Controls.Add(this.lbActivo);
+            this.Controls.Add(this.txbFecha);
+            this.Controls.Add(this.lbFecha);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbName);
+            this.Controls.Add(this.txbID);
+            this.Controls.Add(this.lbID);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnEliminar);
@@ -260,17 +260,17 @@
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnLimpiar;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txbID;
+        private System.Windows.Forms.Label lbID;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbName;
+        private System.Windows.Forms.TextBox txbFecha;
+        private System.Windows.Forms.Label lbFecha;
+        private System.Windows.Forms.TextBox txbActivo;
+        private System.Windows.Forms.Label lbActivo;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lbColorI;
+        private System.Windows.Forms.TextBox txbdato2vivo;
+        private System.Windows.Forms.Label lbdato2vivo;
     }
 }
