@@ -10,16 +10,14 @@ namespace Examen_Tercer_parcial
     {
         public herencia() { }
 
-        public herencia(int iD, string nombre, DateTime fechaRegistro, bool activo, string colorinterfaz, string dato2, string dato3)
+        public herencia(int iD, string nombre, DateTime fechaRegistro, bool activo, string colorinterfaz, string dato2)
             : base(iD, nombre, fechaRegistro, activo)
         {
             ColorInterfaz = colorinterfaz;
             Dato2 = dato2;
-            Dato3 = dato3;
         }
 
         public string ColorInterfaz { get; set; }
         public string Dato2 { get; set; }
-        public string Dato3 { get; set; }
     }
 }
