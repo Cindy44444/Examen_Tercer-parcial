@@ -32,6 +32,7 @@
             this.btnMostrar = new System.Windows.Forms.Button();
             this.lbNombre = new System.Windows.Forms.Label();
             this.txtNombre1 = new System.Windows.Forms.TextBox();
+            this.btnAgreagar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dGVlatablita)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,11 +70,21 @@
             this.txtNombre1.Size = new System.Drawing.Size(72, 20);
             this.txtNombre1.TabIndex = 3;
             // 
+            // btnAgreagar
+            // 
+            this.btnAgreagar.Location = new System.Drawing.Point(220, 318);
+            this.btnAgreagar.Name = "btnAgreagar";
+            this.btnAgreagar.Size = new System.Drawing.Size(71, 27);
+            this.btnAgreagar.TabIndex = 4;
+            this.btnAgreagar.Text = "Agregar ";
+            this.btnAgreagar.UseVisualStyleBackColor = true;
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnAgreagar);
             this.Controls.Add(this.txtNombre1);
             this.Controls.Add(this.lbNombre);
             this.Controls.Add(this.btnMostrar);
@@ -92,5 +103,6 @@
         private System.Windows.Forms.Button btnMostrar;
         private System.Windows.Forms.Label lbNombre;
         private System.Windows.Forms.TextBox txtNombre1;
+        private System.Windows.Forms.Button btnAgreagar;
     }
 }
