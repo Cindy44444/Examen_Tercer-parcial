@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Examen_Tercer_parcial
 {
-    public partial class frmlogin : Form
+    public partial class Inicio : Form
     {
-        public frmlogin()
+        public Inicio()
         {
             InitializeComponent();
         }
