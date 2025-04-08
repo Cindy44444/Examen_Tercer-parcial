@@ -39,7 +39,7 @@
             // 
             this.lbUsuario.AutoSize = true;
             this.lbUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbUsuario.Location = new System.Drawing.Point(201, 89);
+            this.lbUsuario.Location = new System.Drawing.Point(164, 70);
             this.lbUsuario.Name = "lbUsuario";
             this.lbUsuario.Size = new System.Drawing.Size(54, 16);
             this.lbUsuario.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             this.lbContrasenia.AutoSize = true;
             this.lbContrasenia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbContrasenia.Location = new System.Drawing.Point(190, 156);
+            this.lbContrasenia.Location = new System.Drawing.Point(153, 137);
             this.lbContrasenia.Name = "lbContrasenia";
             this.lbContrasenia.Size = new System.Drawing.Size(76, 16);
             this.lbContrasenia.TabIndex = 1;
@@ -57,7 +57,7 @@
             // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(171, 226);
+            this.btnIngresar.Location = new System.Drawing.Point(134, 207);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(113, 40);
             this.btnIngresar.TabIndex = 2;
@@ -66,14 +66,14 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(171, 120);
+            this.txtUsuario.Location = new System.Drawing.Point(134, 101);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(113, 20);
             this.txtUsuario.TabIndex = 3;
             // 
             // txtContrasenia
             // 
-            this.txtContrasenia.Location = new System.Drawing.Point(171, 189);
+            this.txtContrasenia.Location = new System.Drawing.Point(134, 170);
             this.txtContrasenia.Name = "txtContrasenia";
             this.txtContrasenia.Size = new System.Drawing.Size(113, 20);
             this.txtContrasenia.TabIndex = 4;
@@ -82,7 +82,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(468, 450);
+            this.ClientSize = new System.Drawing.Size(383, 355);
             this.Controls.Add(this.txtContrasenia);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.btnIngresar);
