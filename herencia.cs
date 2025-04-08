@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Examen_Tercer_parcial
 {
-    internal class herencia : principal
+    internal class herencia : Consola
     {
         public herencia() { }
 
-        public herencia(string clave, string nombre, string edad,string dato1, string dato2, string dato3)
-            : base(clave,nombre, edad)
+        public herencia(string iD, string nombre, string fechaRegistro, string dato1, string dato2, string dato3)
+            : base(iD, nombre, fechaRegistro)
         {
             Dato1 = dato1;
             Dato2 = dato2;
