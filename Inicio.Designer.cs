@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dGVlatablita = new System.Windows.Forms.DataGridView();
             this.btnMostrar = new System.Windows.Forms.Button();
             this.lbNombre = new System.Windows.Forms.Label();
             this.txtNombre1 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGVlatablita)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dGVlatablita
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(38, 30);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(524, 206);
-            this.dataGridView1.TabIndex = 0;
+            this.dGVlatablita.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dGVlatablita.Location = new System.Drawing.Point(38, 30);
+            this.dGVlatablita.Name = "dGVlatablita";
+            this.dGVlatablita.Size = new System.Drawing.Size(524, 206);
+            this.dGVlatablita.TabIndex = 0;
             // 
             // btnMostrar
             // 
@@ -51,6 +51,7 @@
             this.btnMostrar.TabIndex = 1;
             this.btnMostrar.Text = "Mostrar";
             this.btnMostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
             // lbNombre
             // 
@@ -76,10 +77,10 @@
             this.Controls.Add(this.txtNombre1);
             this.Controls.Add(this.lbNombre);
             this.Controls.Add(this.btnMostrar);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dGVlatablita);
             this.Name = "Inicio";
             this.Text = "Inicio";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGVlatablita)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -87,7 +88,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dGVlatablita;
         private System.Windows.Forms.Button btnMostrar;
         private System.Windows.Forms.Label lbNombre;
         private System.Windows.Forms.TextBox txtNombre1;
