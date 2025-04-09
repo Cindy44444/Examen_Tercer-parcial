@@ -21,7 +21,7 @@ namespace Examen_Tercer_parcial
         private void btnMostrar_Click(object sender, EventArgs e)
         {
             dGVlatablita.DataSource = null;
-            dGVlatablita.DataSource = ACC.MostrarHerencia();
+            dGVlatablita.DataSource = ACC.Consultas();
         }
 
         private void btnCambiar_Click(object sender, EventArgs e)

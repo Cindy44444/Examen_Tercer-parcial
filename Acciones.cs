@@ -13,7 +13,7 @@ namespace Examen_Tercer_parcial
             new herencia (3467, "name 1",DateTime.Today,true,"azul","nose"),
         };
         herencia a = new herencia();
-        public List<herencia> MostrarHerencia()
+        public List<herencia> Consultas()
         {
             return listaHerencia;
         }
@@ -57,10 +57,6 @@ namespace Examen_Tercer_parcial
             {
                 return false;
             }
-        }
-        public bool CONSULTAS()
-        {
-
         }
     }
 }
