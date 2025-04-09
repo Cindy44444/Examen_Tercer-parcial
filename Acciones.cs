@@ -17,9 +17,17 @@ namespace Examen_Tercer_parcial
         {
             return listaHerencia;
         }
-        public bool Altas()
+        public bool Altas(int iD, string nombre, DateTime fechaRegistro, bool activo, string colorinterfaz, string dato2)
         {
-
+            try
+            {
+                listaHerencia.Add(new herencia(a.ID = iD, a.Nombre = nombre, a.FechaRegistro = fechaRegistro, a.activo = activo, a.ColorInterfaz = colorinterfaz, a.Dato2 = dato2));
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
         }
         public bool Bajas (string Nombre)
         {

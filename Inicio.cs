@@ -26,7 +26,7 @@ namespace Examen_Tercer_parcial
 
         private void btnCambiar_Click(object sender, EventArgs e)
         {
-            if (ACC.cambios(txbID.Text, txbNombre.Text, txbFecha.Text, txbActivo.Text, txbcolor.Text, txbdato2vivo.Text))
+            if (ACC.cambios(txbID.ResetText(Convert.ToInt16), txbNombre.Text, txbFecha.Text, txbActivo.Text, txbcolor.Text, txbdato2vivo.Text))
             {
                 MessageBox.Show("Cambio exitoso");
             }
