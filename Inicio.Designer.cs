@@ -48,6 +48,8 @@
             this.lbColorI = new System.Windows.Forms.Label();
             this.txbdato2vivo = new System.Windows.Forms.TextBox();
             this.lbdato2vivo = new System.Windows.Forms.Label();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.btnCambiar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dGVlatablita)).BeginInit();
             this.SuspendLayout();
             // 
@@ -114,7 +116,7 @@
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(707, 30);
+            this.btnLimpiar.Location = new System.Drawing.Point(685, 24);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(71, 27);
             this.btnLimpiar.TabIndex = 7;
@@ -217,11 +219,31 @@
             this.lbdato2vivo.TabIndex = 18;
             this.lbdato2vivo.Text = "Vivo o muerto";
             // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Location = new System.Drawing.Point(461, 334);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(71, 27);
+            this.btnAgregar.TabIndex = 20;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            // 
+            // btnCambiar
+            // 
+            this.btnCambiar.Location = new System.Drawing.Point(538, 334);
+            this.btnCambiar.Name = "btnCambiar";
+            this.btnCambiar.Size = new System.Drawing.Size(71, 27);
+            this.btnCambiar.TabIndex = 21;
+            this.btnCambiar.Text = "Cambios";
+            this.btnCambiar.UseVisualStyleBackColor = true;
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCambiar);
+            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.txbdato2vivo);
             this.Controls.Add(this.lbdato2vivo);
             this.Controls.Add(this.textBox5);
@@ -272,5 +294,7 @@
         private System.Windows.Forms.Label lbColorI;
         private System.Windows.Forms.TextBox txbdato2vivo;
         private System.Windows.Forms.Label lbdato2vivo;
+        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Button btnCambiar;
     }
 }

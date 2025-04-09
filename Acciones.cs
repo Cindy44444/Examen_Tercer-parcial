@@ -42,5 +42,9 @@ namespace Examen_Tercer_parcial
                 return false;
             }
         }
+        public bool CONSULTAS()
+        {
+
+        }
     }
 }
