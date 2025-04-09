@@ -38,13 +38,13 @@
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.txbID = new System.Windows.Forms.TextBox();
             this.lbID = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txbNombre = new System.Windows.Forms.TextBox();
             this.lbName = new System.Windows.Forms.Label();
             this.txbFecha = new System.Windows.Forms.TextBox();
             this.lbFecha = new System.Windows.Forms.Label();
             this.txbActivo = new System.Windows.Forms.TextBox();
             this.lbActivo = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txbcolor = new System.Windows.Forms.TextBox();
             this.lbColorI = new System.Windows.Forms.Label();
             this.txbdato2vivo = new System.Windows.Forms.TextBox();
             this.lbdato2vivo = new System.Windows.Forms.Label();
@@ -63,7 +63,7 @@
             // 
             // btnMostrar
             // 
-            this.btnMostrar.Location = new System.Drawing.Point(245, 242);
+            this.btnMostrar.Location = new System.Drawing.Point(206, 242);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(71, 27);
             this.btnMostrar.TabIndex = 1;
@@ -139,12 +139,12 @@
             this.lbID.TabIndex = 8;
             this.lbID.Text = "ID";
             // 
-            // textBox2
+            // txbNombre
             // 
-            this.textBox2.Location = new System.Drawing.Point(499, 95);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(72, 20);
-            this.textBox2.TabIndex = 11;
+            this.txbNombre.Location = new System.Drawing.Point(499, 95);
+            this.txbNombre.Name = "txbNombre";
+            this.txbNombre.Size = new System.Drawing.Size(72, 20);
+            this.txbNombre.TabIndex = 11;
             // 
             // lbName
             // 
@@ -187,12 +187,12 @@
             this.lbActivo.TabIndex = 14;
             this.lbActivo.Text = "Activo";
             // 
-            // textBox5
+            // txbcolor
             // 
-            this.textBox5.Location = new System.Drawing.Point(499, 249);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(72, 20);
-            this.textBox5.TabIndex = 17;
+            this.txbcolor.Location = new System.Drawing.Point(499, 249);
+            this.txbcolor.Name = "txbcolor";
+            this.txbcolor.Size = new System.Drawing.Size(72, 20);
+            this.txbcolor.TabIndex = 17;
             // 
             // lbColorI
             // 
@@ -236,6 +236,7 @@
             this.btnCambiar.TabIndex = 21;
             this.btnCambiar.Text = "Cambios";
             this.btnCambiar.UseVisualStyleBackColor = true;
+            this.btnCambiar.Click += new System.EventHandler(this.btnCambiar_Click);
             // 
             // Inicio
             // 
@@ -246,13 +247,13 @@
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.txbdato2vivo);
             this.Controls.Add(this.lbdato2vivo);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txbcolor);
             this.Controls.Add(this.lbColorI);
             this.Controls.Add(this.txbActivo);
             this.Controls.Add(this.lbActivo);
             this.Controls.Add(this.txbFecha);
             this.Controls.Add(this.lbFecha);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txbNombre);
             this.Controls.Add(this.lbName);
             this.Controls.Add(this.txbID);
             this.Controls.Add(this.lbID);
@@ -284,13 +285,13 @@
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.TextBox txbID;
         private System.Windows.Forms.Label lbID;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txbNombre;
         private System.Windows.Forms.Label lbName;
         private System.Windows.Forms.TextBox txbFecha;
         private System.Windows.Forms.Label lbFecha;
         private System.Windows.Forms.TextBox txbActivo;
         private System.Windows.Forms.Label lbActivo;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txbcolor;
         private System.Windows.Forms.Label lbColorI;
         private System.Windows.Forms.TextBox txbdato2vivo;
         private System.Windows.Forms.Label lbdato2vivo;

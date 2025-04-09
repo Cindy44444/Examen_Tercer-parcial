@@ -23,5 +23,17 @@ namespace Examen_Tercer_parcial
             dGVlatablita.DataSource = null;
             dGVlatablita.DataSource = ACC.MostrarHerencia();
         }
+
+        private void btnCambiar_Click(object sender, EventArgs e)
+        {
+            if (ACC.cambios(txbID.Text, txbNombre.Text, txbFecha.Text, txbActivo.Text, txbcolor.Text, txbdato2vivo.Text))
+            {
+                MessageBox.Show("Cambio exitoso");
+            }
+            else
+            {
+                MessageBox.Show("Fallo");
+            }
+        }
     }
 }

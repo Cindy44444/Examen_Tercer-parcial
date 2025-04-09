@@ -21,9 +21,25 @@ namespace Examen_Tercer_parcial
         {
 
         }
-        public bool Bajas ()
+        public bool Bajas (string Nombre)
         {
-
+            try
+            {
+                var objetobaja = listaHerencia.Find(x => x.Nombre == Nombre);
+                if (objetobaja != null)
+                {
+                    listaHerencia.Remove(objetobaja);
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
         }
         public bool cambios(int iD, string nombre, DateTime fechaRegistro, bool activo, string colorinterfaz, string dato2)
         {
