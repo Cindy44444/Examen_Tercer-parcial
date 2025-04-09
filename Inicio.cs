@@ -35,5 +35,16 @@ namespace Examen_Tercer_parcial
                 MessageBox.Show("Fallo");
             }
         }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txbID.Text = "";
+            txbNombre.Text = "";
+            txbFecha.Text = "";
+            txbActivo.Text = "";
+            txbcolor.Text = "";
+            txbdato2vivo.Text = "";
+                
+        }
     }
 }
