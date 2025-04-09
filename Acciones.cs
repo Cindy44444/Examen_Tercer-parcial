@@ -33,7 +33,13 @@ namespace Examen_Tercer_parcial
                 if (objetoCambio != null)
                 {
                     listaHerencia.Remove(objetoCambio);
+                    return true;
                 }
+                return false;
+            }
+            catch (Exception e)
+            {
+                return false;
             }
         }
     }
