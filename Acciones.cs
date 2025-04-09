@@ -10,17 +10,31 @@ namespace Examen_Tercer_parcial
     {
         List<herencia> listaHerencia = new List<herencia>
         {
-            new herencia (3467, "name 1",DateTime.Today,,"azul","nose"),
+            new herencia (3467, "name 1",DateTime.Today,true,"azul","nose"),
         };
         herencia a = new herencia();
         public List<herencia> MostrarHerencia()
         {
             return listaHerencia;
         }
-        public string Altas()
+        public bool Altas()
         {
 
         }
+        public bool Bajas ()
+        {
 
+        }
+        public bool cambios(int iD, string nombre, DateTime fechaRegistro, bool activo, string colorinterfaz, string dato2)
+        {
+            try
+            {
+                var objetoCambio = listaHerencia.Find(x => x.ID == iD);
+                if (objetoCambio != null)
+                {
+                    listaHerencia.Remove(objetoCambio);
+                }
+            }
+        }
     }
 }
