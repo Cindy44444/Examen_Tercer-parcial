@@ -53,7 +53,17 @@ namespace Examen_Tercer_parcial
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            int ID = Convert.ToInt32(txbID.Text);
+            DateTime fecha = Convert.ToDateTime(txbFecha.Text);
+            bool activo = Convert.ToBoolean(txbActivo.Text);
 
-        }
+            if (ACC.agregar(ID, txbNombre.Text, fecha, activo, txbcolor.Text, txbdato2vivo.Text))
+            {
+                MessageBox.Show("Agregado con exito");
+            }
+            else
+            {
+                MessageBox.Show("Fallo");
+            }
     }
 }

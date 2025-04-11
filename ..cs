@@ -24,7 +24,7 @@ namespace Examen_Tercer_parcial
                 listaHerencia.Add(new herencia(a.ID = iD, a.Nombre = nombre, a.FechaRegistro = fechaRegistro, a.activo = activo, a.ColorInterfaz = colorinterfaz, a.Dato2 = dato2));
                 return true;
             }
-            catch (Exception e)
+            catch (Exception )
             {
                 return false;
             }
@@ -44,7 +44,7 @@ namespace Examen_Tercer_parcial
                     return false;
                 }
             }
-            catch (Exception e)
+            catch (Exception )
             {
                 return false;
             }
@@ -67,7 +67,7 @@ namespace Examen_Tercer_parcial
                 }
                 return false;
             }
-            catch (Exception e)
+            catch (Exception )
             {
                 return false;
             }
