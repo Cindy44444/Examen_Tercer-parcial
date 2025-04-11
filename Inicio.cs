@@ -49,8 +49,8 @@ namespace Examen_Tercer_parcial
             txbcolor.Text = "";
             txbdato2vivo.Text = "";
             txbEliminar.Text = "";
-            
-                
+
+
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -67,12 +67,12 @@ namespace Examen_Tercer_parcial
             {
                 MessageBox.Show("Fallo");
             }
-    }
+        }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             int ID = Convert.ToInt32(txbEliminar.Text);
-            if(ACC.Bajas(ID))
+            if (ACC.Bajas(ID))
             {
                 MessageBox.Show("Eliminado con exito");
             }
@@ -82,3 +82,4 @@ namespace Examen_Tercer_parcial
             }
         }
     }
+}
