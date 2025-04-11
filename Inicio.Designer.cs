@@ -31,7 +31,7 @@
             this.dGVlatablita = new System.Windows.Forms.DataGridView();
             this.btnMostrar = new System.Windows.Forms.Button();
             this.lbIDeliminar = new System.Windows.Forms.Label();
-            this.txtNombre1 = new System.Windows.Forms.TextBox();
+            this.txbEliminar = new System.Windows.Forms.TextBox();
             this.btnAgreagar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
@@ -80,12 +80,12 @@
             this.lbIDeliminar.TabIndex = 2;
             this.lbIDeliminar.Text = "ID";
             // 
-            // txtNombre1
+            // txbEliminar
             // 
-            this.txtNombre1.Location = new System.Drawing.Point(38, 334);
-            this.txtNombre1.Name = "txtNombre1";
-            this.txtNombre1.Size = new System.Drawing.Size(72, 20);
-            this.txtNombre1.TabIndex = 3;
+            this.txbEliminar.Location = new System.Drawing.Point(38, 334);
+            this.txbEliminar.Name = "txbEliminar";
+            this.txbEliminar.Size = new System.Drawing.Size(72, 20);
+            this.txbEliminar.TabIndex = 3;
             // 
             // btnAgreagar
             // 
@@ -104,6 +104,7 @@
             this.btnEliminar.TabIndex = 5;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnActualizar
             // 
@@ -263,7 +264,7 @@
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnAgreagar);
-            this.Controls.Add(this.txtNombre1);
+            this.Controls.Add(this.txbEliminar);
             this.Controls.Add(this.lbIDeliminar);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.dGVlatablita);
@@ -280,7 +281,7 @@
         private System.Windows.Forms.DataGridView dGVlatablita;
         private System.Windows.Forms.Button btnMostrar;
         private System.Windows.Forms.Label lbIDeliminar;
-        private System.Windows.Forms.TextBox txtNombre1;
+        private System.Windows.Forms.TextBox txbEliminar;
         private System.Windows.Forms.Button btnAgreagar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnActualizar;
