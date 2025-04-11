@@ -26,7 +26,11 @@ namespace Examen_Tercer_parcial
 
         private void btnCambiar_Click(object sender, EventArgs e)
         {
-            if (ACC.cambios(txbID.ResetText(Convert.ToInt16), txbNombre.Text, txbFecha.Text, txbActivo.Text, txbcolor.Text, txbdato2vivo.Text))
+            int ID = Convert.ToInt32(txbID.Text);
+            DateTime fecha = Convert.ToDateTime(txbFecha.Text);
+            bool activo = Convert.ToBoolean(txbActivo.Text);
+
+            if (ACC.cambios(ID, txbNombre.Text, fecha, activo, txbcolor.Text, txbdato2vivo.Text))
             {
                 MessageBox.Show("Cambio exitoso");
             }
@@ -45,6 +49,11 @@ namespace Examen_Tercer_parcial
             txbcolor.Text = "";
             txbdato2vivo.Text = "";
                 
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
