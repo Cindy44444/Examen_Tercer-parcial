@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Examen_Tercer_parcial
 {
+    //Ultimo cambio para ver si si se guardo
     internal class Acciones
     {
         List<herencia> listaHerencia = new List<herencia>

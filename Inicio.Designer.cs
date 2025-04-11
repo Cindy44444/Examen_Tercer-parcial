@@ -32,9 +32,7 @@
             this.btnMostrar = new System.Windows.Forms.Button();
             this.lbIDeliminar = new System.Windows.Forms.Label();
             this.txbEliminar = new System.Windows.Forms.TextBox();
-            this.btnAgreagar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnActualizar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.txbID = new System.Windows.Forms.TextBox();
             this.lbID = new System.Windows.Forms.Label();
@@ -87,15 +85,6 @@
             this.txbEliminar.Size = new System.Drawing.Size(72, 20);
             this.txbEliminar.TabIndex = 3;
             // 
-            // btnAgreagar
-            // 
-            this.btnAgreagar.Location = new System.Drawing.Point(621, 411);
-            this.btnAgreagar.Name = "btnAgreagar";
-            this.btnAgreagar.Size = new System.Drawing.Size(71, 27);
-            this.btnAgreagar.TabIndex = 4;
-            this.btnAgreagar.Text = "Agregar ";
-            this.btnAgreagar.UseVisualStyleBackColor = true;
-            // 
             // btnEliminar
             // 
             this.btnEliminar.Location = new System.Drawing.Point(38, 371);
@@ -105,15 +94,6 @@
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
-            // 
-            // btnActualizar
-            // 
-            this.btnActualizar.Location = new System.Drawing.Point(707, 411);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(71, 27);
-            this.btnActualizar.TabIndex = 6;
-            this.btnActualizar.Text = "Actualizar";
-            this.btnActualizar.UseVisualStyleBackColor = true;
             // 
             // btnLimpiar
             // 
@@ -261,9 +241,7 @@
             this.Controls.Add(this.txbID);
             this.Controls.Add(this.lbID);
             this.Controls.Add(this.btnLimpiar);
-            this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnEliminar);
-            this.Controls.Add(this.btnAgreagar);
             this.Controls.Add(this.txbEliminar);
             this.Controls.Add(this.lbIDeliminar);
             this.Controls.Add(this.btnMostrar);
@@ -282,9 +260,7 @@
         private System.Windows.Forms.Button btnMostrar;
         private System.Windows.Forms.Label lbIDeliminar;
         private System.Windows.Forms.TextBox txbEliminar;
-        private System.Windows.Forms.Button btnAgreagar;
         private System.Windows.Forms.Button btnEliminar;
-        private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.TextBox txbID;
         private System.Windows.Forms.Label lbID;
