@@ -54,6 +54,12 @@ namespace Examen_Tercer_parcial
             try
             {
                 var objetoCambio = listaHerencia.Find(x => x.ID == iD);
+                objetoCambio.ID = iD;
+                objetoCambio.Nombre = nombre;
+                objetoCambio.FechaRegistro = fechaRegistro;
+                objetoCambio.activo = activo;
+                objetoCambio.ColorInterfaz = colorinterfaz;
+                objetoCambio.Dato2 = dato2;
                 if (objetoCambio != null)
                 {
                     listaHerencia.Remove(objetoCambio);
