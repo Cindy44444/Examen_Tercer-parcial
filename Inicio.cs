@@ -71,8 +71,9 @@ namespace Examen_Tercer_parcial
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            int ID = Convert.ToInt32(txbEliminar.Text);
-            if (ACC.Bajas(ID))
+            int iD = Convert.ToInt32(txbEliminar.Text);
+
+            if (ACC.Bajas(iD))
             {
                 MessageBox.Show("Eliminado con exito");
             }

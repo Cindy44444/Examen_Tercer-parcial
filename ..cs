@@ -29,11 +29,11 @@ namespace Examen_Tercer_parcial
                 return false;
             }
         }
-        public bool Bajas (string Nombre)
+        public bool Bajas (int ID)
         {
             try
             {
-                var objetobaja = listaHerencia.Find(x => x.Nombre == Nombre);
+                var objetobaja = listaHerencia.Find(x => x.ID == ID);
                 if (objetobaja != null)
                 {
                     listaHerencia.Remove(objetobaja);
